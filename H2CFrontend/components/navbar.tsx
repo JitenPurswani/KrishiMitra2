@@ -1,17 +1,20 @@
-"use client"
+"use client";
 
-import { useState } from "react"
-import Link from "next/link"
-import { usePathname } from "next/navigation"
-import { Button } from "@/components/ui/button"
-import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu"
-import { Input } from "@/components/ui/input"
-import { Globe, Menu, Search, User, X } from "lucide-react"
+import { useState } from "react";
+import Link from "next/link";
+import { usePathname, useRouter } from "next/navigation";
+import { Button } from "@/components/ui/button";
+import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu";
+import { Input } from "@/components/ui/input";
+import { Globe, Menu, Search, User, X } from "lucide-react";
+import { useLanguage } from "@/contexts/language-context";
 
 const Navbar = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false)
-  const [isSearchOpen, setIsSearchOpen] = useState(false)
-  const pathname = usePathname()
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isSearchOpen, setIsSearchOpen] = useState(false);
+  const pathname = usePathname();
+  const router = useRouter();
+  const { language, setLanguage } = useLanguage();
 
   const navLinks = [
     { name: "Home", href: "/" },
@@ -19,7 +22,7 @@ const Navbar = () => {
     { name: "Organic Farming", href: "/organic-farming" },
     { name: "Government Schemes", href: "/government-schemes" },
     { name: "Crop Rotation", href: "/crop-rotation" },
-  ]
+  ];
 
   return (
     <nav className="bg-primary text-primary-foreground sticky top-0 z-50">
@@ -70,6 +73,7 @@ const Navbar = () => {
               </Button>
             )}
 
+            {/* Language Dropdown
             <DropdownMenu>
               <DropdownMenuTrigger asChild>
                 <Button variant="ghost" size="icon">
@@ -77,12 +81,13 @@ const Navbar = () => {
                 </Button>
               </DropdownMenuTrigger>
               <DropdownMenuContent align="end">
-                <DropdownMenuItem>English</DropdownMenuItem>
-                <DropdownMenuItem>Hindi</DropdownMenuItem>
-                <DropdownMenuItem>Marathi</DropdownMenuItem>
+                <DropdownMenuItem onClick={() => setLanguage("en")} className={language === "en" ? "bg-primary/10" : ""}>English</DropdownMenuItem>
+                <DropdownMenuItem onClick={() => setLanguage("hi")} className={language === "hi" ? "bg-primary/10" : ""}>Hindi</DropdownMenuItem>
+                <DropdownMenuItem onClick={() => setLanguage("mr")} className={language === "mr" ? "bg-primary/10" : ""}>Marathi</DropdownMenuItem>
               </DropdownMenuContent>
-            </DropdownMenu>
+            </DropdownMenu> */}
 
+            {/* User Profile Dropdown */}
             <DropdownMenu>
               <DropdownMenuTrigger asChild>
                 <Button variant="ghost" size="icon">
@@ -92,7 +97,7 @@ const Navbar = () => {
               <DropdownMenuContent align="end">
                 <DropdownMenuItem>Profile</DropdownMenuItem>
                 <DropdownMenuItem>Settings</DropdownMenuItem>
-                <DropdownMenuItem>Logout</DropdownMenuItem>
+                <DropdownMenuItem onClick={() => router.push("/auth")}>Logout</DropdownMenuItem>
               </DropdownMenuContent>
             </DropdownMenu>
           </div>
@@ -134,32 +139,35 @@ const Navbar = () => {
                 {link.name}
               </Link>
             ))}
+
             <div className="pt-4 border-t border-primary-foreground/20 flex justify-between">
+              {/* Language Dropdown */}
               <DropdownMenu>
                 <DropdownMenuTrigger asChild>
-                  <Button variant="ghost" size="sm">
+                  <Button variant="ghost" size="sm" className="flex items-center">
                     <Globe className="h-4 w-4 mr-2" />
                     Language
                   </Button>
                 </DropdownMenuTrigger>
-                <DropdownMenuContent>
-                  <DropdownMenuItem>English</DropdownMenuItem>
-                  <DropdownMenuItem>Hindi</DropdownMenuItem>
-                  <DropdownMenuItem>Spanish</DropdownMenuItem>
+                <DropdownMenuContent align="start">
+                  <DropdownMenuItem onClick={() => setLanguage("en")} className={language === "en" ? "bg-primary/10" : ""}>English</DropdownMenuItem>
+                  <DropdownMenuItem onClick={() => setLanguage("hi")} className={language === "hi" ? "bg-primary/10" : ""}>Hindi</DropdownMenuItem>
+                  <DropdownMenuItem onClick={() => setLanguage("mr")} className={language === "mr" ? "bg-primary/10" : ""}>Marathi</DropdownMenuItem>
                 </DropdownMenuContent>
               </DropdownMenu>
 
+              {/* User Profile Dropdown */}
               <DropdownMenu>
                 <DropdownMenuTrigger asChild>
-                  <Button variant="ghost" size="sm">
+                  <Button variant="ghost" size="sm" className="flex items-center">
                     <User className="h-4 w-4 mr-2" />
                     Profile
                   </Button>
                 </DropdownMenuTrigger>
-                <DropdownMenuContent>
+                <DropdownMenuContent align="end">
                   <DropdownMenuItem>Profile</DropdownMenuItem>
                   <DropdownMenuItem>Settings</DropdownMenuItem>
-                  <DropdownMenuItem>Logout</DropdownMenuItem>
+                  <DropdownMenuItem onClick={() => router.push("/auth")}>Logout</DropdownMenuItem>
                 </DropdownMenuContent>
               </DropdownMenu>
             </div>
@@ -167,8 +175,7 @@ const Navbar = () => {
         )}
       </div>
     </nav>
-  )
-}
+  );
+};
 
-export default Navbar
-
+export default Navbar;
