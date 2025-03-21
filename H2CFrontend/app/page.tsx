@@ -110,7 +110,7 @@ export default function Home() {
               <CardTitle>Seasonal Farming Tips</CardTitle>
             </CardHeader>
             <CardContent className="flex-grow">
-              <p>Get expert advice on seasonal farming practices, weather-based recommendations, and crop guidance to maximize your yield throughout the year.</p>
+              <p>Get advice on seasonal farming practices, weather-based recommendations, and crop guidance to maximize your yield throughout the year.</p>
             </CardContent>
             <CardFooter className="mt-auto">
               <Button asChild variant="outline" className="w-full">

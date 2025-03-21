@@ -262,10 +262,6 @@ export default function CropRecommendation() {
                               Not Helpful
                             </Button>
                           </div>
-                          <Button variant="outline" size="sm">
-                            <MessageCircle className="h-4 w-4 mr-1" />
-                            Ask Expert
-                          </Button>
                         </CardFooter>
                       </Card>
                     ))}
