@@ -42,9 +42,9 @@ export default function OrganicFarming() {
         },
       ],
       videos: [
-        { title: "Complete Guide to Soil Testing", duration: "15:24", url: "https://www.youtube.com/watch?v=LWU8nRDJnuI", videoId: "LWU8nRDJnuI", thumbnail: "https://img.youtube.com/vi/LWU8nRDJnuI/maxresdefault.jpg" },
-        { title: "How to Make High-Quality Compost", duration: "12:08", url: "https://www.youtube.com/watch?v=hanno4zcSFw", videoId: "hanno4zcSFw", thumbnail: "https://img.youtube.com/vi/hanno4zcSFw/maxresdefault.jpg" },
-        { title: "Cover Cropping Techniques", duration: "18:45", url: "https://www.youtube.com/watch?v=qMW6PXeYzPc", videoId: "qMW6PXeYzPc", thumbnail: "https://img.youtube.com/vi/qMW6PXeYzPc/maxresdefault.jpg" },
+        { title: "माती परीक्षण मार्गदर्शक (Soil Testing Guide in Marathi)", duration: "12:45", url: "https://www.youtube.com/watch?v=VxuJrKiUkDY", videoId: "VxuJrKiUkDY", thumbnail: "https://img.youtube.com/vi/VxuJrKiUkDY/maxresdefault.jpg" },
+        { title: "सेंद्रिय खत बनवण्याची पद्धत (Organic Fertilizer Making)", duration: "15:20", url: "https://www.youtube.com/watch?v=Y7YE6WJ7RIw", videoId: "Y7YE6WJ7RIw", thumbnail: "https://img.youtube.com/vi/Y7YE6WJ7RIw/maxresdefault.jpg" },
+        { title: "हिरवळीचे खत - फायदे आणि पद्धती (Green Manure Benefits)", duration: "10:30", url: "https://www.youtube.com/watch?v=xK9pxfKd0KU", videoId: "xK9pxfKd0KU", thumbnail: "https://img.youtube.com/vi/xK9pxfKd0KU/maxresdefault.jpg" },
       ],
       faqs: [
         {
@@ -92,9 +92,9 @@ export default function OrganicFarming() {
         },
       ],
       videos: [
-        { title: "Companion Planting Strategies", duration: "14:32", url: "https://www.youtube.com/watch?v=zhVJzXqLvv4", videoId: "zhVJzXqLvv4", thumbnail: "https://img.youtube.com/vi/zhVJzXqLvv4/maxresdefault.jpg" },
-        { title: "How to Attract Beneficial Insects", duration: "10:15", url: "https://www.youtube.com/watch?v=dqKzJwK_oNw", videoId: "dqKzJwK_oNw", thumbnail: "https://img.youtube.com/vi/dqKzJwK_oNw/maxresdefault.jpg" },
-        { title: "Making Natural Pest Sprays", duration: "08:47", url: "https://www.youtube.com/watch?v=7UW7HEXPcd4", videoId: "7UW7HEXPcd4", thumbnail: "https://img.youtube.com/vi/7UW7HEXPcd4/maxresdefault.jpg" },
+        { title: "सहपिक पद्धती - किटक नियंत्रण (Companion Planting for Pest Control)", duration: "14:15", url: "https://www.youtube.com/watch?v=RxGVUjZR8Ys", videoId: "RxGVUjZR8Ys", thumbnail: "https://img.youtube.com/vi/RxGVUjZR8Ys/maxresdefault.jpg" },
+        { title: "नैसर्गिक कीटकनाशके (Natural Pesticides in Marathi)", duration: "11:30", url: "https://www.youtube.com/watch?v=L8bHxcgqJHE", videoId: "L8bHxcgqJHE", thumbnail: "https://img.youtube.com/vi/L8bHxcgqJHE/maxresdefault.jpg" },
+        { title: "जैविक कीटक नियंत्रण (Organic Pest Management)", duration: "16:20", url: "https://www.youtube.com/watch?v=9q_mzxPB8Ac", videoId: "9q_mzxPB8Ac", thumbnail: "https://img.youtube.com/vi/9q_mzxPB8Ac/maxresdefault.jpg" },
       ],
       faqs: [
         {
@@ -122,28 +122,28 @@ export default function OrganicFarming() {
         {
           title: "Setting Up a Compost Bin",
           description: "Choose the right location and container for your compost pile or bin.",
-          image: "/placeholder.svg?height=200&width=400",
+          image: "/compost.jpeg",
         },
         {
           title: "Balancing Green and Brown Materials",
           description: "Maintain the right ratio of nitrogen-rich 'green' materials and carbon-rich 'brown' materials.",
-          image: "/placeholder.svg?height=200&width=400",
+          image: "/green.jpeg",
         },
         {
           title: "Turning and Monitoring",
           description: "Regularly turn your compost and monitor moisture and temperature for optimal decomposition.",
-          image: "/placeholder.svg?height=200&width=400",
+          image: "/monitoring.jpeg",
         },
         {
           title: "Using Finished Compost",
           description: "Know when your compost is ready and how to apply it to your garden or farm.",
-          image: "/placeholder.svg?height=200&width=400",
+          image: "/compost.jpeg",
         },
       ],
       videos: [
-        { title: "Building the Perfect Compost Bin", duration: "16:20", url: "https://www.youtube.com/watch?v=qwSM7wKPTxU", videoId: "qwSM7wKPTxU", thumbnail: "https://img.youtube.com/vi/qwSM7wKPTxU/maxresdefault.jpg" },
-        { title: "Compost Troubleshooting Guide", duration: "11:35", url: "https://www.youtube.com/watch?v=M1kIpCBD3UI", videoId: "M1kIpCBD3UI", thumbnail: "https://img.youtube.com/vi/M1kIpCBD3UI/maxresdefault.jpg" },
-        { title: "Vermicomposting: Composting with Worms", duration: "13:42", url: "https://www.youtube.com/watch?v=QmB6NM-TJ3c", videoId: "QmB6NM-TJ3c", thumbnail: "https://img.youtube.com/vi/QmB6NM-TJ3c/maxresdefault.jpg" },
+        { title: "कंपोस्ट खत तयार करण्याची पद्धत (Composting Method)", duration: "13:45", url: "https://www.youtube.com/watch?v=zXJJt_VqhKs", videoId: "zXJJt_VqhKs", thumbnail: "https://img.youtube.com/vi/zXJJt_VqhKs/maxresdefault.jpg" },
+        { title: "गांडूळ खत बनवण्याची संपूर्ण माहिती (Complete Vermicompost Guide)", duration: "18:25", url: "https://www.youtube.com/watch?v=YxgX1vhqMhM", videoId: "YxgX1vhqMhM", thumbnail: "https://img.youtube.com/vi/YxgX1vhqMhM/maxresdefault.jpg" },
+        { title: "कंपोस्ट खतातील समस्या आणि उपाय (Composting Problems and Solutions)", duration: "12:10", url: "https://www.youtube.com/watch?v=K5AFJm-crlE", videoId: "K5AFJm-crlE", thumbnail: "https://img.youtube.com/vi/K5AFJm-crlE/maxresdefault.jpg" },
       ],
       faqs: [
         {
@@ -171,28 +171,28 @@ export default function OrganicFarming() {
         {
           title: "Water Conservation Techniques",
           description: "Implement methods to reduce water usage and maximize efficiency.",
-          image: "/placeholder.svg?height=200&width=400",
+          image: "/water.jpeg",
         },
         {
           title: "Drip Irrigation Systems",
           description: "Set up drip irrigation for targeted watering with minimal waste.",
-          image: "/placeholder.svg?height=200&width=400",
+          image: "/drip.jpeg",
         },
         {
           title: "Rainwater Harvesting",
           description: "Collect and store rainwater for use during dry periods.",
-          image: "/placeholder.svg?height=200&width=400",
+          image: "/raiwater.jpeg",
         },
         {
           title: "Mulching for Moisture Retention",
           description: "Apply mulch to reduce evaporation and maintain soil moisture.",
-          image: "/placeholder.svg?height=200&width=400",
+          image: "/mulch.jpg",
         },
       ],
       videos: [
-        { title: "DIY Drip Irrigation System", duration: "19:05", url: "https://www.youtube.com/watch?v=El0N8TtV3rw", videoId: "El0N8TtV3rw", thumbnail: "https://img.youtube.com/vi/El0N8TtV3rw/maxresdefault.jpg" },
-        { title: "Setting Up Rainwater Collection", duration: "14:28", url: "https://www.youtube.com/watch?v=uWmJpEwk5eY", videoId: "uWmJpEwk5eY", thumbnail: "https://img.youtube.com/vi/uWmJpEwk5eY/maxresdefault.jpg" },
-        { title: "Best Mulching Practices", duration: "09:56", url: "https://www.youtube.com/watch?v=RhZJDsszlCg", videoId: "RhZJDsszlCg", thumbnail: "https://img.youtube.com/vi/RhZJDsszlCg/maxresdefault.jpg" },
+        { title: "ठिबक सिंचन प्रणाली (Drip Irrigation System)", duration: "16:35", url: "https://www.youtube.com/watch?v=vBU_dAIJ4WE", videoId: "vBU_dAIJ4WE", thumbnail: "https://img.youtube.com/vi/vBU_dAIJ4WE/maxresdefault.jpg" },
+        { title: "पाणी व्यवस्थापन आणि पावसाचे पाणी साठवण (Water Management and Rainwater Harvesting)", duration: "14:50", url: "https://www.youtube.com/watch?v=XH5YKo1nDHw", videoId: "XH5YKo1nDHw", thumbnail: "https://img.youtube.com/vi/XH5YKo1nDHw/maxresdefault.jpg" },
+        { title: "आच्छादन तंत्र - पाणी जतन (Mulching Techniques for Water Conservation)", duration: "11:25", url: "https://www.youtube.com/watch?v=0IwJZk4Z7x0", videoId: "0IwJZk4Z7x0", thumbnail: "https://img.youtube.com/vi/0IwJZk4Z7x0/maxresdefault.jpg" },
       ],
       faqs: [
         {
@@ -370,15 +370,18 @@ export default function OrganicFarming() {
               <CardContent className="space-y-4">
                 {currentTopic.videos.map((video, index) => (
                   <div key={index} className="space-y-2">
-                    <div className="relative aspect-video rounded-lg overflow-hidden">
-                      <iframe
-                        src={`https://www.youtube.com/embed/${video.videoId}`}
-                        title={video.title}
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowFullScreen
-                        className="absolute top-0 left-0 w-full h-full"
+                    <a href={video.url} target="_blank" rel="noopener noreferrer" className="block">
+                    <div className="relative aspect-video rounded-lg overflow-hidden group cursor-pointer">
+                      <img 
+                        src={video.thumbnail}
+                        alt={video.title}
+                        className="w-full h-full object-cover transition-transform group-hover:scale-105"
                       />
+                      <div className="absolute inset-0 flex items-center justify-center bg-black/20 group-hover:bg-black/40 transition-colors">
+                        <Play className="w-12 h-12 text-white opacity-80 group-hover:opacity-100 transition-opacity" />
+                      </div>
                     </div>
+                  </a>
                     <div>
                       <h4 className="text-sm font-medium">{video.title}</h4>
                       <p className="text-xs text-muted-foreground">{video.duration}</p>
@@ -413,23 +416,6 @@ export default function OrganicFarming() {
                 <Button variant="outline" className="w-full justify-start">
                   <BookOpen className="h-4 w-4 mr-2" />
                   Recommended Books
-                </Button>
-              </CardContent>
-            </Card>
-
-            {/* Expert Advice */}
-            <Card>
-              <CardHeader>
-                <CardTitle className="text-lg">Ask an Expert</CardTitle>
-                <CardDescription>Get personalized advice</CardDescription>
-              </CardHeader>
-              <CardContent>
-                <p className="text-sm mb-4">
-                  Have a specific question about organic farming? Our experts are here to help.
-                </p>
-                <Button className="w-full">
-                  <MessageSquare className="h-4 w-4 mr-2" />
-                  Ask a Question
                 </Button>
               </CardContent>
             </Card>

@@ -136,6 +136,7 @@ export default function CropRecommendation() {
                           </div>
                         </div>
                       </div>
+
                     ))}
                   </div>
                 </CardContent>
